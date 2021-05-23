@@ -28,6 +28,22 @@ const App = () => {
   );
 }
 
+// return (
+//   <div id="app">
+//     <SearchBar setResults={setResults} />
+//     <SearchResults
+//       results={results}
+//       addCardToDeck={addCardToDeck}
+//       removeCardFromDeck={removeCardFromDeck}
+//     />
+//     <DeckList
+//       deck={deck}
+//       addCardToDeck={addCardToDeck}
+//       removeCardFromDeck={removeCardFromDeck}
+//     />
+//   </div>
+// );
+
 ReactDOM.render(
   <App />,
   document.getElementById('root')
